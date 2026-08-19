@@ -1,0 +1,16 @@
+
+worker-configuration.d.ts
+
+
+# Arquivos compactados (Bloqueia o site-hostinger.zip)
+*.zip
+*.rar
+*.tar.gz
+
+# Variáveis locais (Nunca suba esse arquivo se você o criar)
+.dev.vars
+
+# Pastas padrão do ecossistema que não vão pro GitHub
+node_modules/
+dist/
+.wrangler/

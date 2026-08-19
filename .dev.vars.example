@@ -1,0 +1,15 @@
+# Variáveis de Ambiente - Desenvolvimento Local
+# Copie este arquivo para .dev.vars e preencha com seus valores
+
+# API Key do Resend (obtenha em https://resend.com)
+RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxxx
+
+# URL da aplicação (local: http://localhost:8787, produção: https://seudominio.com)
+APP_URL=http://localhost:8787
+
+# Secret para proteger endpoint do cron job (gere com: openssl rand -base64 32)
+CRON_SECRET=sua-senha-secreta-aqui-muito-longa-e-segura
+
+# Mocha Users Service (se estiver usando)
+MOCHA_USERS_SERVICE_API_URL=https://api.mocha.com
+MOCHA_USERS_SERVICE_API_KEY=mocha_xxxxxxxxxxxxx
